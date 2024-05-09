@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/* Custom CSS for navbar */
+.bg-orange {
+    background-color: rgb(16, 66, 231); /* Light purple background color */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+body{
+    font-family: var(--sm-font);
+   background-color: rgb(245, 225, 229) !important;*/
+  /*  background-image: url("../images/bg1.jpeg")!important;
+    /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+/*css for login page start*/
+a {
+    text-decoration: none;
+}
+.login-page {
+    width: 100%;
+    height: 100;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.form-right i {
+    font-size: 100px;
+}
+/*css for login page end*/
+
+/* button */
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+#searchInput{
+    width: 500px;
+}
+#searchInput1{
+width:300px;
+}
+#formselect{
+    height: 200px;
+    width: 300px;
+ text-align:center ;
+ font-size: x-large;
+ border: 2px solid black ;
+ background-color: beige;
+ margin: 50px;
+ padding-left: 50px;
+ padding-top:  50px;
+ padding-bottom: 50px;
+
+}
+
+
+.btn:not(.nav-btns button){
+    background-color: rgb(181, 194, 147);
+    color: black(11, 11, 0, 0.093);
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color:grey;
+    color: #fff;
+    border-color: var(--pink);
+}
+
+/* text color */
+.text-primary{
+    color: var(--pink)!important;
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            justify-content: space-evenly;
+           
+
+            .navbar1{
+               padding: 200px;
+                        justify-content: space-evenly;
+}
+.navbar-brand img{
+    
+    font-family: GFS Didot;
+    font-weight: bolder;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+#header{
+    background: url(../images/kiddokartlogo.jpeg) top/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #171616!important;
+}
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+/* collection */
+.active-filter-btn{
+    background-color: var(--pink)!important;
+    color: #fff!important;
+    border-color: var(--pink)!important;
+}
+.filter-button-group .btn:hover{
+    color: #fff!important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/* special */
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+
+/* footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
+
+
+.custom-margin-right {
+    margin-right: 1rem;
+}
+
+    .carousel-caption {
+      /*  position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        text-align: left;*/
+     
+        text-align: left;
+        left: 5%; /* Adjust as needed */
+        right: auto; /* Reset right alignment */
+    }
+
+    }
+    .carousel-caption h2 {
+        color: rgb(77, 0, 0);
+        text-transform: capitalize;
+        font-size: 36px;
+    }
+    .carousel-caption h1 {
+        color: rgb(13, 12, 12);
+        text-transform: capitalize;
+        font-size: 48px;
+        font-weight: bold;
+        padding: 20px 0;
+    }
+    .carousel-caption .btn {
+        color: rgb(235, 239, 14);
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 2px solid white;
+        padding: 10px 20px;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+    }
+    .carousel-caption .btn:hover {
+        background-color: white;
+        color: black;
+    }
+    #Registration {
+        border: 2px solid black ;
+        background-color: beige;
+        margin: 50px;
+        padding-left: 50px;
+        padding-top:  50px;
+        padding-bottom: 50px;
+        
+    }
+ /* Basic styling for the forms */
+ .form-container {
+    display: lo;
+    margin-bottom: 20px;
+}
+.form-container:target {
+    display: block;
+}
+#Login {
+    border: 2px solid black ;
+    background-color: beige;
+    margin: 50px;
+    padding-left: 50px;
+    padding-top:  50px;
+    padding-bottom: 50px;
+    
+}
+.carousel-inner .carousel-item .carousel-caption {
+    text-align: left !important;
+    left: 5% !important;
+    right: auto !important;
+    top: 5%  !important;
+}
+.center-heading {
+    text-align: center;
+}
+.bg_color{
+    background-color:rgb(245, 225, 229)!important;
+}
+
+/*css for user registration start*/
+label {
+    font-weight: 600;
+    color: #666;
+}
+body {
+  background: #f0e1e1;
+}
+.box8{
+  box-shadow: 0px 0px 5px 1px #999;
+}
+.mx-t3{
+  margin-top: -3rem;
+}
+
+
+/*css for user registration end*/
+/*css for checkout page start*/
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+    .col-75{
+        margin-top:20px;
+        padding: top 20px;;
+    }
+  }
+/*css for checkout page end*/
+.radio-buttons input[type="radio"],
+.radio-buttons label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1px; /* Adjust spacing between radio buttons and labels */
+}
+.carousel-control-next-icon {
+    color: aqua;
+}
+.carousel-control-prev .carousel-control-prev-icon {
+    color:black; /* Change to your desired color */
+}
+
+.carousel-control-next .carousel-control-next-icon {
+    color: brown; /* Change to your desired color */
+}
+#imageSlider{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+.my_conainer_class{
+    background-color:rgb(245, 225, 229)!important ;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
